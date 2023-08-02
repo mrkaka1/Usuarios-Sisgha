@@ -1,0 +1,70 @@
+* {
+   font-family: 'Poppins', sans-serif;
+}
+.content {
+   display: grid;
+   grid-template-columns: 57px 135px 1fr 1fr 150px;
+   height: 100vh;
+}
+.svg-mn{
+   padding: 0px;
+   margin: 15px;
+   margin-top: 25px;
+   width: 25px;
+   height: 25px;
+   align-items: center;
+   justify-content: center;   
+}
+.barra-menu {
+   align-items: center;
+   justify-content: center;
+   grid-column: 1;
+   grid-row: 1 / -1;
+   background-color: #39A048;
+}
+.content-usuario {
+   grid-column: 3 / 4;
+   color: #C8DCCB
+}
+.label {
+   display: block;
+   font-size: 10px;
+   font-weight: 600;
+   background-color: white;  
+   margin-top: 60px;
+   margin-left: 20px;
+}
+.input {
+   height: 40px;
+   width: 400px;
+   font-weight: 550;
+   font-size: 0.75rem;
+   border-radius: 8px;
+   border: 2px solid #C8DCCB;
+   color: #C8DCCB
+}
+.usuario {
+   margin-top: 70px;
+   width: 140px;
+   height: 190px;
+   border: 2px solid #C8DCCB;
+   border-radius: 8px;
+   align-items: center;
+   justify-content: center;
+}
+.circle {
+   margin: 17px;   
+}
+.ctusu {
+   display: flex;
+   gap: 70px;
+}
+.nomes {
+   color: #000;
+   font-size: 0.85rem;
+   margin-top: -12px;
+   margin-left: 15px;
+}
+.cargo {
+   margin: -20px 0px 0px 42px ;
+}

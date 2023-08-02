@@ -1,0 +1,35 @@
+body {
+   margin: 0px;
+}
+.header {
+   display: flex;
+   height: 70px;
+   margin: 0px 0px 1px 0px;;
+   border-bottom: 0.2px solid #eeeeee;
+   box-shadow: 0px 0.10px 5px #d4d0d0;
+}
+.svgH{
+   width: auto;
+   height: auto;
+   margin: 10px 10px 10px 15px;
+   
+}
+.ulH{
+   margin: 0px;
+   margin-left: 8px;
+   margin-top: 10px;
+   padding:0px;
+}
+.nome{
+   display: block;
+   font-weight: bold;
+   margin: 0px;
+}
+.svg {
+   width: 10px;
+   height: 15px;
+   
+}
+.p {
+   margin: 0px;
+}
