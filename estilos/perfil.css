@@ -1,8 +1,8 @@
 .barraperfil {
-   grid-column: 4  / 7;
+   grid-column: 4  / 5;
    grid-row: 1;
    margin-top: 40px;
-   margin-left: 11px;
+   margin-left: 15px;
 }
 .barra {
    display: flex; 
@@ -39,13 +39,15 @@ p.disp {
    /* margin: 0px 15px 0px 15px */
 }
 .ftperfil {
+   display: block;
    width: 200px;
    height: 150px;
    margin: 0px;
    grid-row: 1;
-   grid-column: 5 / 6;
+   grid-column: 4 / 6;
    margin-top: 100px;
-   margin-left: 55px;
+   margin-left: 235px;
+   
 }
 .circlepf {
    margin: 0px;
@@ -54,6 +56,40 @@ p.disp {
 .nomepf {
    margin: 0px;
 }
-.a {
+.infor {
+   grid-column: 4 / 5;
+   grid-row: 1;
+   margin-top: 280px;
+   width: 600px;
+   height: auto;
+   margin-left: 15px; 
+   position: relative;
+}
+.email,
+.func,
+.stt {
+   display: flex;
+   margin-top: 15px;
+}
+span {
+   font-weight: bold;
+}
+.if {
+   display: flex;
+}
+.elemento {
+   content: " ";
+   width: 480px;
+   grid-column: 4 / 7;
+   margin-top: 15px;
+   margin-left: 8px;
+   height: 3px;
+   background-color: #C8DCCB;
+}
+.none  {
+   display: none!important;
+}
+.nn {
    display: none;
 }
+
