@@ -4,6 +4,7 @@
 .content {
    display: grid;
    grid-template-columns: 57px 1fr  1fr 1fr 1fr 1fr;
+   grid-row: 1;
    height: 90vh;
 }
 .svg-mn{
@@ -24,10 +25,11 @@
    background-color: #39A048;
 }
 .barra-menu:hover {
-   width: 100px;   
+   width: 100px;
 }
 .content-usuario {
    grid-column: 3 / 4;
+   grid-row: 1;
    color: #C8DCCB
 }
 .label {
@@ -71,4 +73,22 @@
 }
 .cargo {
    margin: -20px 0px 0px 42px ;
+}
+.svgvt {
+ width: 12px;
+ height: 12px;
+ position: relative;
+}
+.voltar {
+   position: relative;
+   text-decoration: none;
+   color: black;
+   grid-column: 2;
+   grid-row: 1;
+   height: 20px;
+   width: 70px;
+   font-weight: bold;
+   margin-left: 25px;
+   margin-top: 20px;
+   align-items: center;
 }

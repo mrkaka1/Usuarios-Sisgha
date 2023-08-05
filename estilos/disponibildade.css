@@ -29,11 +29,17 @@ li {
    padding-right: 34.4px;
    padding-left: 34.4px;
    padding-top: 3px;
+   background-color: #EBF8EF;
+   font-weight: bold;
+   cursor: pointer;
 }
 .dia6 {
-   padding-right: 34.4px;
-   padding-left: 34.4px;
+   font-weight: bold;
+   padding-right: 27px;
+   padding-left: 32px;
    padding-top: 3px;
+   background-color: #EBF8EF;
+   cursor: pointer;
 }
 .bx {
    display: flex;
@@ -45,6 +51,14 @@ li {
 .mt {
   margin: 0px;
 }
+.bx1,
+.bx2,
+.bx3,
+.bx4,
+.bx5, 
+.bx6 {
+   margin-bottom: 5px;
+}
 
 .matu,
 .vesp,
@@ -53,6 +67,8 @@ li {
    padding: 0px;
    margin-left: 15px;
    width: 80px;
+   font-weight: 500;
+   margin-bottom: 50px;
 }
 .ensino {
    grid-column: 4 / 5;
@@ -84,4 +100,21 @@ span {
    height: 3px;
    background-color: #C8DCCB;
 }
-
+.ativo {
+   display: block !important;
+   z-index: 1000;
+}
+.ativou {
+   display: flex !important;
+   z-index: 2000;
+}
+.ativa {
+   display: block !important;
+   z-index: 3000;
+}
+/* .ativado {
+   border-color: #39A048;
+} */
+.atv {
+   fill: #39A048;
+}

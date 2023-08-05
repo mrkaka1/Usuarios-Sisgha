@@ -18,6 +18,7 @@
    place-items: center;
    font-weight: 600;
    cursor: pointer;
+   background-color: #EBF8EF;
 }
 .disp {
    border-right: 3px solid #C8DCCB;
