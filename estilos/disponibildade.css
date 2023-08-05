@@ -18,6 +18,7 @@ li {
    height: 30px;
    width: 600px;
    border: 3px solid #C8DCCB;
+   background-color: #EBF8EF;
    border-radius: 6px 6px 6px 6px;
 }
 .dia1,
@@ -28,16 +29,16 @@ li {
    border-right: 3px solid #C8DCCB;
    padding-right: 34.4px;
    padding-left: 34.4px;
-   padding-top: 3px;
+   padding-top: 6px;
    background-color: #EBF8EF;
    font-weight: bold;
    cursor: pointer;
 }
 .dia6 {
    font-weight: bold;
-   padding-right: 27px;
-   padding-left: 32px;
-   padding-top: 3px;
+   padding-right: 34.4px;
+   padding-left: 34.4px;
+   padding-top: 6px;
    background-color: #EBF8EF;
    cursor: pointer;
 }

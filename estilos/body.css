@@ -1,5 +1,6 @@
 * {
    font-family: 'Poppins', sans-serif;
+
 }
 .content {
    display: grid;
@@ -10,7 +11,8 @@
 .svg-mn{
    padding: 0px;
    margin: 15px;
-   margin-top: 25px;
+   margin-top: 30px;
+   margin-bottom: 25px;
    width: 25px;
    height: 25px;
    align-items: center;
@@ -24,9 +26,9 @@
    grid-row: 1 / -1;
    background-color: #39A048;
 }
-.barra-menu:hover {
+/* .barra-menu:hover {
    width: 100px;
-}
+} */
 .content-usuario {
    grid-column: 3 / 4;
    grid-row: 1;
